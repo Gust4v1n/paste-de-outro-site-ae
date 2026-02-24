@@ -1,0 +1,19 @@
+@layer utilities {
+  @keyframes insano {
+    0%   { opacity: 0; }
+    50%  { opacity: 0; }
+    51%  { opacity: 1; }
+    100% { opacity: 1; }
+  }
+
+  .animate-insano {
+    animation: insano 2s steps(1, end) infinite;
+  }
+}
+
+@layer utilities {
+  .word-spacing-sm { word-spacing: 0.25rem; }
+  .word-spacing-md { word-spacing: 0.5rem; }
+  .word-spacing-lg { word-spacing: 1rem; }
+  .word-spacing-prois {word-spacing: 7rem}
+}
